@@ -4,7 +4,7 @@ Why don't we create a cloud sync picture frame displaying some Pepe ?
 
 This is an adaptation of existing projects. 
 
-Bill of material :
+## Bill of material :
 
     Picture frame
     7" touch LCD screen
@@ -16,7 +16,7 @@ Bill of material :
 Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Imager), create a dropBox account and add the "fakeDrop" shared folder to your account. 
 
 
-1/ Install rclone on the Rpi
+### 1/ Install rclone on the Rpi
 
   Open the Terminal and type :
   
@@ -27,7 +27,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
     rclone --version
   
   
- 2/ Configure rclone 
+ ### 2/ Configure rclone 
  
   In the Terminal type :
   
@@ -50,7 +50,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
     Type "q" to quit
     
     
- 3/ Configure the Rpi (synchronise a folder with dropBox)
+ ### 3/ Configure the Rpi (synchronise a folder with dropBox)
  
   In the Terminal type :
   
@@ -71,7 +71,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
     chmod +x get_pictures.sh
     
     
-  4/ Let's create a "cron job" (automatisation of the synchronisation)  
+  ### 4/ Let's create a "cron job" (automatisation of the synchronisation)  
   
    In the Terminal type :
     
@@ -84,7 +84,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
    Save and exit nano
     
     
-  5/ Now we need to install a pictures displaying program 
+  ### 5/ Now we need to install a pictures displaying program 
   
    In the terminal type :
     
@@ -103,7 +103,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
       chmod +x fbi_start.sh
       
     
-  6/ We want this to start at boot so
+  ### 6/ We want this to start at boot so
   
    In the Terminal type :
     
@@ -120,7 +120,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
    Save and quit nano 
     
     
-  7/ Restart the pi and see if the pictures start showing (it might take a minute to start) 
+  ### 7/ Restart the pi and see if the pictures start showing (it might take a minute to start) 
     
       
       
