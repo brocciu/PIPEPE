@@ -54,7 +54,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
  
   In the Terminal type :
   
-    rclone sync piPepeCloud: /home/pi/Pictures/
+    rclone sync piPepeCloud:/fakeDrops /home/pi/Pictures/
     
   It should download the content of the dropBox folder
   
