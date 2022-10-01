@@ -2,6 +2,8 @@
 
 Why don't we create a cloud sync picture frame displaying some Pepe ?
 
+![piPepeCadre](https://user-images.githubusercontent.com/114665705/193407563-cbbfb6ce-81a2-46c4-adaf-e33a9a0107e0.gif)
+
 This is an adaptation of existing projects. 
 
 ## Bill of material :
